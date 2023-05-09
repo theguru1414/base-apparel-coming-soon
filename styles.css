@@ -28,8 +28,8 @@
   
   main {
     display: flex;
-    justify-content: left;
-    align-items: right;
+    justify-content: space-between;
+    align-items: left;
     height: 100vh;
   }
   
@@ -47,9 +47,22 @@
     order: 1
   }
   
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: pink
+  }
+
   h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: pink;
+    padding: 1rem
   }
   
   form input {
